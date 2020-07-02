@@ -138,7 +138,7 @@ contains 0060000084600F03  contains 00E0000084603F03  contains 00E0000084604F03 
 pfn 84600      -R--ADK--V  pfn 84603      -W--ADK--V  pfn 84604      -W--ADK--V  pfn 80009      -W--ADK--V
 ```
 
-Again, on my machine `poi(hal!HalpInterruptController)` PFN happened to be constant across multiple reboots with a physical address of `0x80009000` - and this happened also to be true on a different machine where it was `0x40009000`.
+Again, on my machine `poi(hal!HalpInterruptController)` PFN happened to be constant across multiple reboots with a physical address of `0x80009000` (with debug mode on. Thanks to DumpIt, the value is `0x80005000` when debug mode is off) - and this happened also to be true on a different machine where it was `0x40009000`.
 
 We can already see a pattern where the PFN for `poi(hal!HalpInterruptController)` is `nt!MmPhysicalMemoryBlock->Run[0].BasePage + 0x9`.
 
