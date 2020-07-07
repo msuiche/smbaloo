@@ -6,7 +6,7 @@ A CVE-2020-0796 (aka "SMBGhost") exploit for Windows ARM64.
 *Because vulnerabilities and exploits don't need to always have scary names and logos.*
 
 * [**GitHub Repository**](https://www.github.com/msuiche/smbaloo): https://www.github.com/msuiche/smbaloo
-* [**Original post on Comae's blog**](https://www.comae.com/posts/2020-06-25_smbaloo-building-a-rce-exploit-for-windows-arm64-smbghost-edition/): https://www.comae.com/posts/2020-06-25_smbaloo-building-a-rce-exploit-for-windows-arm64-smbghost-edition/
+* [**Original post on Comae's blog**](https://www.comae.com/posts/2020-07-01_smbaloo-building-a-rce-exploit-for-windows-arm64-smbghost-edition/): https://www.comae.com/posts/2020-06-25_smbaloo-building-a-rce-exploit-for-windows-arm64-smbghost-edition/
 * **Author**: Matt Suiche ([@msuiche](https://www.twitter.com/msuiche))
 
 # Acknowledgments
